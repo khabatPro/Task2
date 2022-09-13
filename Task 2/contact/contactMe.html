@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact me</title>
+</head>
+<body>
+   
+    <h1 style="margin-left:10px;font-family:Calibri;font-size: 30px;font-weight: 500;">Contact me</h1>
+
+<style> /* to create a break between labels */
+    div{
+        margin: 1rem 0;
+    }
+</style>
+
+    <form action="/uplod" method="POST">
+    
+        <div>
+            <label style="margin-left:10px;font-family:Calibri;font-size: 16px;font-weight: 400;" for="user-Name">User Name: </label>  
+            <input type="text" placeholder="User name" id="user-Name" size=25>
+        </div>
+
+        <div>
+            <label style="margin-left:10px;font-family:Calibri;font-size: 16px;font-weight: 400;" for="E-Mail">E-Mail: </label>  
+            <input type="email" placeholder="example@example.com" id="E-Mail" size=25>
+        </div>
+
+        <div>
+            <label style="margin-left:10px;font-family:Calibri;font-size: 16px;font-weight: 400;" for="my-date">Meeting date: </label>
+            <input type="date" id="my-date" size=40>
+        </div>
+
+        <div>            
+            <label for="Comment" style="margin-left:10px;font-family:Calibri;font-size: 16px;font-weight: 400;">Comment: </label>
+            <br>
+            <textarea style="margin-left:10px" rows="5" cols="50"  placeholder="..." id="Comment" size="20"></textarea>
+        </div>
+</body>
+</html>
